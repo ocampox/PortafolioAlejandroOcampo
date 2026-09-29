@@ -19,11 +19,11 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('frutas.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("En el siguiente enlace encontraremos una App diseñada para identificar frutas de acuerdo a su peso, diámetro y dulzor.") 
+ url = "https://fruits-b3sbauefe9bawca4xffvnf.streamlit.app/"
+ st.write(f"Medidor de frutas: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')

@@ -18,7 +18,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Analizador de frutas")
  image = Image.open('frutas.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace encontraremos una App diseñada para identificar frutas de acuerdo a su peso, diámetro y dulzor.") 
@@ -40,12 +40,12 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("Descenso de Gradiente Interactivo")
+ image = Image.open('gradiante.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos una aplicación que ayuda a simular la tasa de aprendizaje y el punto inicial que afectan la convergencia del descenso de gradiente.") 
+ url = "https://gradiante.streamlit.app/"
+ st.write(f"Gradiente: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')

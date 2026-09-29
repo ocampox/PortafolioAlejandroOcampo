@@ -63,12 +63,12 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Regresión Logística interactiva")
+ image = Image.open('clima.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En la siguiente aplicación veremos la probabilidad de que llueva basado en la humedad, temperatura y viento") 
+ url = "https://regresionlogisticaa.streamlit.app/"
+ st.write(f"Clima: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('OIG4.jpg')

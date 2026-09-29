@@ -41,7 +41,7 @@ with col1:
 
 with col2: 
  st.subheader("Descenso de Gradiente Interactivo")
- image = Image.open('gradiante.jpg')
+ image = Image.open('gradiante.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos una aplicación que ayuda a simular la tasa de aprendizaje y el punto inicial que afectan la convergencia del descenso de gradiente.") 
  url = "https://gradiante.streamlit.app/"
